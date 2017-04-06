@@ -350,9 +350,7 @@ export default BlogPost;
 
 Our blog is setup, but crawlers from search engines and social networks do not execute Javascript so our blog has terrible SEO.
 
-There are a number of ways to address this, including setting up server-side rendering and pre-rendering services like Prerender.io and SEO.js. But these options all require setting up a Node.js server, and in this tutorial we want our app to be serverless.
-
-One option for this is hosting the app on Netlify, which offers a built-in prerendering service for their paid plans.
+There are a number of ways to address this, including setting up server-side rendering and pre-rendering services like Prerender.io and SEO.js. But these options all require setting up a Node.js server, and in this tutorial we want our app to be serverless. The solution we'll use is hosting the app on [Netlify](https://netlify.com), which offers a built-in prerendering service for their paid plans.
 
 To do this, first we'll create a production build of our app (you'll need [Yarn](https://yarnpkg.com/en/docs/install) installed first):
 
@@ -361,14 +359,12 @@ yarn install
 yarn run build
 ```
 
-Check your `build` directory to verify that the production build was created successfully. All you have to do to host the app is drag the `build` folder onto Netlify's dashboard. Prerendering can be enabled from the app settings.
+Check your `build` directory to verify that the production build was created successfully. All you have to do to host the app is drag the `build` folder onto Netlify's dashboard. Prerendering can be enabled from the app settings. Check out our [live example](https://serverless-react-blog.netlify.com).
 
 ## Wrap Up
 
-We've built a SEO-friendly serverless blog using React and two third-party services. With our serverless approach we can now get back to building software without having to ever worry about server maintenance, outages, or scaling bottlenecks.
+That's it! We've built a SEO-friendly serverless blog using React and two third-party services. With our serverless approach we can now get back to building software without having to ever worry about server maintenance, outages, or scaling bottlenecks.
 
 I hope you enjoyed this tutorial. If you have any questions about setting up your ButterCMS-powered React app reach out to me at roger@buttercms.com and I'll definitely reply!
-
-
 
 

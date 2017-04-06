@@ -359,7 +359,7 @@ yarn install
 yarn run build
 ```
 
-Check your `build` directory to verify that the production build was created successfully. All you have to do to host the app is drag the `build` folder onto Netlify's dashboard. Prerendering can be enabled from the app settings. Check out our [live example](https://serverless-react-blog.netlify.com).
+Check your `build` directory to verify that the production build was created successfully. All you have to do to host the app is drag the `build` folder onto Netlify's dashboard. Prerendering can be enabled from the app settings. Check out our [live example](https://react-serverless-blog.netlify.com).
 
 ## Wrap Up
 

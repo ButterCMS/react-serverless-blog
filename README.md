@@ -267,7 +267,7 @@ class BlogPost extends Component {
 export default BlogPost;
 ```
 
-### Head Elemenets
+### Head Elements
 
 Our blog is working but our post pages don't have properly set HTML titles or meta tags. To fix this, we'll use [React Helmet](https://github.com/nfl/react-helmet).
 

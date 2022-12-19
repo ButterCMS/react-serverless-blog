@@ -1,5 +1,24 @@
 # How to Build a Serverless, SEO-friendly React blog 
 
+## Important Notice
+This project was created as an example use case of ButterCMS in conjunction with a blog article, [How to Build a Serverless, SEO-Friendly React Blog With Netlify](https://buttercms.com/blog/serverless-react-blog-tutorial/), and will not be actively maintained. 
+
+If you’re interested in exploring the best, most up-to-date way to integrate Butter into javascript frameworks like React, you can check out the following resources:
+
+### Starter Projects
+
+The following turn-key starters are fully integrated with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
+- [React Starter](https://buttercms.com/starters/react-starter-project/)
+- [Angular Starter](https://buttercms.com/starters/angular-starter-project/)
+- [Vue.js Starter](https://buttercms.com/starters/vuejs-starter-project/)
+- Or see a list of all our [currently-maintained starters](https://buttercms.com/starters/). (Over a dozen and counting!)
+
+### Other Resources
+- Check out the [official ButterCMS Docs](https://buttercms.com/docs/)
+- Check out the [official ButterCMS API docs](https://buttercms.com/docs/api/)
+
+## Project Description
+
 Serverless application architectures are gaining in popularity and it's no mystery why. Developers are able to build and iterate on products faster when they have less infrastructure to maintain and don't need to worry about server maintenance, outages, and scaling bottlenecks, 
 
 In this tutorial we are going to show you how to build a serverless, CMS-powered blog using React, ButterCMS, and built-in prerendering through Netlify. The finished code for this tutorial is available on Github.
@@ -7,6 +26,7 @@ In this tutorial we are going to show you how to build a serverless, CMS-powered
 [ButterCMS](https://buttercms.com) is a hosted API-based CMS and content API that lets you build CMS-powered apps using any programming language including [Ruby](https://buttercms.com/ruby-cms), [Rails](https://buttercms.com/rails-cms), [Node.js](https://buttercms.com/nodejs-cms), [.NET](https://buttercms.com/asp-net-cms), [Python](https://buttercms.com/python-cms), [Phoenix](https://buttercms.com/phoenix-cms), [Django](https://buttercms.com/django-cms), [Flask](https://buttercms.com/flask-cms), [React](https://buttercms.com/react-cms), [Angular](https://buttercms.com/angular-cms), [Go](https://buttercms.com/golang-cms), [PHP](https://buttercms.com/php-cms), [Laravel](https://buttercms.com/laravel-cms), [Elixir](https://buttercms.com/elixir-cms), and [Meteor](https://buttercms.com/meteor-cms). Butter lets you manage content using their dashboard and integrate it into your front-end of choice with our API – you can think of Butter as similar to WordPress except that you build your website in your language of choice and then plug-in the dynamic content using an API.
 
 [Netlify](https://netlify.com) is a static website hosting service that handles integration with prerenering services like Prerender.io, SEO.js, and Brombone.
+
 
 ### Getting Started
 
